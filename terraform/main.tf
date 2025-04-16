@@ -53,8 +53,8 @@ module "ecs_cluster" {
     }
   }
 
-  tags = local.tags
-  depends_on = [ resource.aws_iam_service_linked_role.ecs ]
+  tags       = local.tags
+  depends_on = [resource.aws_iam_service_linked_role.ecs]
 }
 
 ################################################################################
@@ -162,7 +162,7 @@ module "ecs_service" {
     }
   }
 
-  tags = local.tags
+  tags       = local.tags
   depends_on = [aws_iam_service_linked_role.ecs_autoscaling]
 }
 
