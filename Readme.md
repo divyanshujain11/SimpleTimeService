@@ -29,3 +29,9 @@ This project sets up an **Amazon ECS Fargate** cluster running a service (`simpl
 ```bash
 git clone https://github.com/your-org/your-repo.git
 cd your-repo
+```
+
+### 3. for github action
+- **Add you bucket in backend.tf**
+- **Add your creds in github  secret**
+
