@@ -1,0 +1,15 @@
+{
+    "name": "simple-time-service",
+    "version": "1.0.0",
+    "description": "A minimal web service that returns timestamp and visitor's IP",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
+  
